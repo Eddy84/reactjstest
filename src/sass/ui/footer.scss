@@ -1,0 +1,58 @@
+.footer
+{
+	margin:0 !important;
+
+	.footerColumnHeader
+	{
+		color:#ffffff;
+		font-weight:bold;
+	}
+
+	a,span 
+	{
+		font-size:0.8rem;
+	}
+
+	a 		{ color:#dddddd; }
+	span 	{ color:#888888; }
+
+	.footerTop
+	{
+		text-align:center;
+
+		background-color:#37475a;
+
+		padding:0.6rem 0;
+
+	}
+
+	.footerNewsletter
+	{
+		 line-height:1.2; 
+	}
+
+	.footerContent
+	{
+		background-color:#232f3e;
+
+		ul 
+		{ 
+			padding:0;
+			list-style:none;
+		}
+
+		padding:2rem 0;
+	}
+	.footerBottom
+	{
+		text-align:center;
+
+		background-color:#131a22;
+
+		
+
+		a,span { margin:0 10px; }
+
+		padding:3rem 0;
+	}
+}

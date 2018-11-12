@@ -1,0 +1,33 @@
+.u-search-result-list
+{
+	list-style:none;
+	padding:0;
+}
+
+.u-search-result-item
+{
+	position:relative;
+
+	box-sizing:border-box;
+
+	padding:0.3rem;
+
+	border-bottom: 1px solid #dddddd;
+
+	.u-search-result-item-image
+	{
+		width:180px;
+	}
+	.u-search-result-item-content
+	{
+		padding-left:1.0rem;
+	}
+
+	.u-search-result-item-badge
+	{
+		position:absolute;
+
+		left:0;
+		top:0;
+	}
+}

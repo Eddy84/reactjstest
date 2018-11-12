@@ -1,0 +1,314 @@
+{
+	"overview" :
+	{
+		"title"	: "Mein Konto",
+		"card":
+		{
+			"addresses":
+			{
+				"title"			: "Deine Adressen",
+				"description"	: "Bearbeite Adressen und Liefereinstellungen"
+			},
+			"loginsecurity":
+			{
+				"title"			: "Login & Security",
+				"description"	: "Bearbeite Login, Name und persönliche Daten"
+			},
+			"settings":
+			{
+				"title"			: "Einstellungen",
+				"description"	: "Bearbeite deine Einstellungen"
+			},
+			"paymentmethods":
+			{
+				"title"			: "Bezahlmethoden",
+				"description"	: "Bearbeite und füge neue Bezahlmethoden hinzu"
+			},
+			"orders" :
+			{
+				"title"			: "Deine Bestellungen",
+				"description"	: "Überblick deiner Bestellungen"
+			},
+			"balance" :
+			{
+				"title"			: "Kontoübersicht",
+				"description"	: "Übersicht über Saldo, Bonuscodes"
+			}
+		}
+	},
+	"addresses" :
+	{
+		"title"	: "Adressen"
+	},
+	"addressadd" :
+	{
+		"title" :"Neue Adresse",
+		"phone" :
+		{
+			"info" : "Kann für die Zustellungen verwendet werden."
+		},
+		"submit" :
+		{
+			"label" : "Adresse hinzufügen"
+		}
+	},
+	"addresscard" :
+	{
+		"edit" : { "label": "Bearbeiten" },
+		"delete" : { "label" : "Entfernen" },
+		"setdefault" : { "label" : "Standard" },
+		"add" : { "label" : "Hinzufügen" }
+	},
+	"addressedit" :
+	{
+		"title" :"Adresse bearbeiten",
+		"phone" :
+		{
+			"info" : "Kann für die Zustellungen verwendet werden."
+		},
+		"submit" :
+		{
+			"label" : "Adresse speichern"
+		}
+	},
+	"changename" :
+	{
+		"title" : "Name ändern",
+		"note" : "Wenn du den Name deines XYZ Kontos ändern möchtest, ändere den Namen im Eingabefeld weiter unten und klicke auf Änderung speichern.",
+		"submit" : { "label" : "Änderungen speichern" }
+	},
+	"changeemail" :
+	{
+		"title" : "E-Mail ändern",
+		"note" : "Wenn du die E-Mail deines XYZ Kontos ändern möchtest, ändere die Adresse im Eingabefeld weiter unten und klicke auf Änderung speichern.",
+		"submit" : { "label" : "Änderungen speichern" }
+	},
+	"changephone" :
+	{
+		"title" : "Telefon ändern",
+		"note" : "Benutze das Formular weiter unten um deine Telefonnummer zu ändern und klicke auf Änderung speichern.",
+		"submit" : { "label" : "Änderungen speichern" }
+	},
+	"changepassword" :
+	{
+		"title" : "Passwort ändern",
+		"note" : "Benutze das Formular weiter unten um dein Passwort zu ändern und klicke auf Änderung speichern.",
+		"submit" : { "label" : "Änderungen speichern" }
+	},
+	"balance" :
+	{
+		"title"	: "Kontoübersicht"
+	},
+	"loginsecurity" :
+	{
+		"title" : "Login & Security",
+		"name" :
+		{
+			"edit" : {"label" : "Bearbeiten"},
+			"label" : "Name:"
+		},
+		"email" :
+		{
+			"edit" : {"label" : "Bearbeiten"},
+			"label" : "E-Mail:"
+		},
+		"phone" :
+		{
+			"edit" : {"label" : "Bearbeiten"},
+			"label" : "Telefon:"
+		},
+		"password" :
+		{
+			"edit" : {"label" : "Bearbeiten"},
+			"label" : "Passwort:"
+		},
+		"settings" :
+		{
+			"edit" : {"label" : "Bearbeiten"},
+			"label" : "Erweiterte Sicherheitseinstellungen:",
+			"description" : "Sicherheitseinstellungen und Authentifizierung"
+		}
+	},
+	"orders" :
+	{
+		"title" : "Bestellungen"
+	},
+	"paymentmethods" :
+	{
+		"title" : "Bezahlmethoden"
+	},
+	"paymentmethod" :
+	{
+		"edit" : { "label" : "Bearbeiten" },
+		"delete" : { "label" : "Entfernen" },
+		"setdefault" : { "label" : "Standard" },
+		"add" : { "label" :"Hinzufügen" }
+	},
+	"paymentmethodadd" :
+	{
+		"title" : "Bezahlmethode hinzufügen",
+		"submit" :
+		{
+			"label" : "Hinzufügen"
+		}
+	},
+	"settings" :
+	{
+		"title" : "Einstellungen"	
+	},
+	"form" :
+	{
+		"title" : "Anmeldung",
+		"type" :
+		{
+			"private" 	: "Privatkunde",
+			"business" 	: "Geschäftskunde"
+		},
+		"firstname" :
+		{
+			"label" 		: "Vorname",
+			"placeholder" 	: "Gib deinen Vornamen ein"
+		},
+		"lastname" :
+		{
+			"label" 		: "Nachname",
+			"placeholder" 	: "Gib deinen Nachname ein"
+		},
+		"address1" :
+		{
+			"label" 		: "Adresse",
+			"placeholder" 	: "Straße, Hausnummer"
+		},
+		"address2" :
+		{
+			"placeholder" 	: "Zimmer,Apartment"
+		},
+		"city" :
+		{
+			"label"			: "Stadt",
+			"placeholder" 	: "Stadt, Ortschaft"
+		},
+		"postcode" :
+		{
+			"label"			: "Postleitzahl/PLZ",
+			"placeholder" 	: ""
+		},
+		"country" :
+		{
+			"label"			: "Land",
+			"placeholder" 	: "z.B. Deutschland"
+		},
+		"state" :
+		{
+			"label"			: "Bundesstaat",
+			"placeholder" 	: ""
+		},
+		"county" :
+		{
+			"label"			: "Landkreis/Bezirk",
+			"placeholder" 	: ""
+		},
+		"phone" :
+		{
+			"label"			: "Telefon, Mobiltelefon",
+			"placeholder" 	: ""
+		},
+		"email" :
+		{
+			"label"			: "E-Mail",
+			"placeholder"	: ""	
+		},
+		"emailnew" :
+		{
+			"label"			: "Neue E-Mail",
+			"placeholder"	: ""	
+		},
+		"emailrepeat" :
+		{
+			"label"			: "Neue E-Mail wiederholen",
+			"placeholder"	: ""	
+		},
+		"password" :
+		{
+			"label" 		: "Passwort",
+			"placeholder" 	: ""
+		},
+		"passwordcurrent" :
+		{
+			"label" 		: "Aktuelles Passwort",
+			"placeholder" 	: ""
+		},
+		"passwordnew" :
+		{
+			"label" 		: "Neues Passwort",
+			"placeholder" 	: ""
+		},
+		"passwordnewrepeat" :
+		{
+			"label" 		: "Neues Passwort wiederholen",
+			"placeholder" 	: ""
+		},
+		"paymentmethod" :
+		{
+			"label" : "Bezahlmethode wählen"
+		},
+		"rememberme" :
+		{
+			"label"			: "Angemeldet bleiben."
+		},
+		"submit" :
+		{
+			"label"			: "Anmelden"
+		},
+		"new" :
+		{
+			"label"			: "Neu bei XYZ?"
+		},
+		"register" :
+		{
+			"title" : "Konto erstellen",
+			"type" :
+			{
+				"private" 	: "Privatkunde",
+				"business" 	: "Geschäftskunde"
+			},
+			"firstname" :
+			{
+				"label" 		: "Vorname",
+				"placeholder" 	: "Gib deinen Vornamen ein"
+			},
+			"password" :
+			{
+				"label" 		: "Passwort",
+				"placeholder" 	: "mindestens 6 Zeichen",
+				"info"			: "Passwörter müssen mindestens 6 Zeichen lang sein"
+			},
+			"passwordrepeat" :
+			{
+				"label" 		: "Passwort nochmals eingeben",
+				"placeholder" 	: ""
+			},
+			"rememberme" :
+			{
+				"label"			: "Angemeldet bleiben."
+			},
+			"submit" :
+			{
+				"label"			: "Erstellen Sie Ihr XYZ-Konto"
+			},
+			"new" :
+			{
+				"label"			: "Neu bei XYZ?"
+			},
+			"register" :
+			{
+				"label" 		: "Erstellen Sie Ihr XYZ Konto"
+			},
+			"login" :
+			{
+				"note" 			: "Sie haben bereits ein Konto?",
+				"label"			: "Anmelden"
+			}
+		}
+	}
+}

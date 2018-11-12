@@ -1,0 +1,28 @@
+.u-badge
+{
+	position:relative;
+
+	box-sizing:border-box;
+
+	width:80px;
+	height:26px;
+
+	line-height:26px;
+
+	background-color:orange;
+	
+	&::after
+	{
+		content:"";
+		display:block;
+
+		position:absolute;
+
+		top:0px;
+		right:-10px;
+
+		border-right:10px solid transparent;
+		border-top:26px solid orange;
+	}
+}
+

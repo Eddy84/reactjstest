@@ -1,0 +1,21 @@
+.u-carousel
+{
+	position:relative;
+
+	box-sizing:border-box;
+
+	display:flex;
+
+	.u-carousel-thumbs
+	{
+
+	}
+
+	&.u-carousel-axis-horizontal 
+	{
+		.u-carousel-thumbs
+		{
+			flex-direction:row;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.u-product
+{
+	padding-top:20px;
+
+	.u-product-common
+	{
+		padding-left:20px;
+	}
+	.u-product-buybox
+	{
+		width:260px;
+	}
+	.u-product-features
+	{
+		font-size:0.9rem;
+
+		ul
+		{
+			padding-left:20px;
+		}
+	}
+	table.u-product-attributes
+	{
+		td
+		{
+			&.u-label
+			{
+				width:50%;
+				background-color:#f5f5f5;
+				padding:3px 0 3px 10px;
+			}
+
+			&.u-value
+			{
+				width:50%;
+				padding:3px 0 3px 10px;
+			}
+			border-top:1px dotted #cccccc;
+
+			&:last-child { border-bottom:1px dotted #cccccc; }
+		}
+	}
+}

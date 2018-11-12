@@ -1,0 +1,66 @@
+@import "fonts.scss";
+@import "label.scss";
+@import "flexbox.scss";
+@import "grid.scss";
+@import "nav.scss";
+@import "steps.scss";
+@import "footer.scss";
+@import "searchbar.scss";
+@import "badge.scss";
+@import "search-result-list.scss";
+@import "carousel.scss";
+@import "imagebox.scss";
+@import "section.scss";
+@import "product.scss";
+@import "checkout.scss";
+
+.u-page-login
+{
+	width:380px;
+	margin:1rem auto !important;
+}
+.u-page-register
+{
+	width:380px;
+	margin:1rem auto !important;
+}
+
+.u-page
+{
+	width:1000px;
+	margin:1rem auto !important;
+}
+.u-page.u-page-width-small
+{
+	width:500px;
+}
+
+.u-page.u-page-account
+{
+
+}
+
+.u-page.u-page-account.u-page-account-overview
+{
+}
+.u-page.u-page-account.u-page-account-orders
+{
+}
+.u-page.u-page-account.u-page-account-loginsecurity
+{
+}
+.u-page.u-page-account.u-page-account-balance
+{
+}
+.u-page.u-page-account.u-page-account-addresses
+{
+}
+.u-page.u-page-account.u-page-account-addressesadd
+{
+}
+.u-page.u-page-account.u-page-account-paymentmethods
+{
+}
+.u-page.u-page-account.u-page-account-settings
+{
+}

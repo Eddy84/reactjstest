@@ -1,0 +1,31 @@
+.u-section
+{
+	.u-content
+	{
+		padding:5px 0 0 20px;
+		font-size:0.8rem;
+	}
+	&.u-section-main
+	{
+		hr { display:block; }
+		> .u-section-header
+		{
+			font-size:1.1rem;
+			font-weight:bold;
+			color:#cc6600;
+		}
+	}
+
+	&.u-section-info
+	{
+		margin-bottom:2rem;
+		hr { display:none; }
+		> .u-section-header
+		{
+			border-bottom:1px solid #cccccc;
+
+			font-size:1.0rem;
+		
+		}
+	}
+}

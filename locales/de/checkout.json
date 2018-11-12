@@ -1,0 +1,75 @@
+{
+	"form" :
+	{
+		"address" :
+		{
+			"salutation" : "Anrede",
+			"title" : "Titel",
+			"type" :
+			{
+				"private" 	: "Privatkunde",
+				"business" 	: "Geschäftskunde"
+			},
+			"firstname" :
+			{
+				"label" 		: "Vorname",
+				"placeholder" 	: "Gib deinen Vornamen ein"
+			},
+			"lastname" :
+			{
+				"label" 		: "Nachname",
+				"placeholder" 	: "Gib deinen Nachnamen ein"
+			},
+			"company" :
+			{
+				"label" 		: "Firma",
+				"placeholder" 	: ""
+			},
+			"company_form" :
+			{
+				"label" 		: "Geschäftsform",
+				"placeholder" 	: ""
+			},
+			"company_type" :
+			{
+				"label" 		: "Geschäftsart",
+				"placeholder" 	: ""
+			},
+			"vatid" :
+			{
+				"label" 		: "USt-IdNr.",
+				"placeholder" 	: "z.B. DE123456789"
+			},
+			"street" :
+			{
+				"label" 		: "Straße",
+				"placeholder" 	: "z.B. Musterstraße"
+			},
+			"streetno" :
+			{
+				"label" 		: "Number",
+				"placeholder" 	: "z.B. 12"
+			},
+			"city" :
+			{
+				"label"			: "Stadt/PLZ",
+				"placeholder"	: "z.B. 80331 München"
+			},
+			"country" :
+			{
+				"label"			: "Land",
+				"placeholder"	: "z.B. de, DE, Deutschland"
+			},
+			"email" :
+			{
+				"label"			: "E-Mail",
+				"placeholder"	: "z.B. max@mustermann.de"
+			},
+			"phone" :
+			{
+				"label"			: "Telefon",
+				"placeholder"	: "z.B. +49(0)1234 12345"
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+.ui-steps
+{
+	position:relative;
+
+	box-sizing:border-box;
+
+	display:flex;
+	flex-direction:row;
+
+	margin:10px 0 20px 0;
+}
+
+.ui-step
+{
+	position:relative;
+
+	box-sizing:border-box;
+
+	flex-grow:1;
+
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+
+	text-align:center;
+
+
+	&.ui-step-state-complete	{ border-color:#00bb00;	color:#00bb00; }
+	&.ui-step-state-active 		{ border-color:blue;	color:blue; }
+	&.ui-step-state-incomplete	{ border-color:#999999;	color:#999999; }
+}
+.ui-step-number
+{
+	position:relative;
+
+	box-sizing:border-box;
+
+	margin:0 auto;
+
+	font-size:0.875rem;
+	line-height:1.5rem;
+
+	width:1.5rem;
+	height:1.5rem;
+
+	border-radius:0.75rem;
+	border-width:1px;
+	border-style:solid;
+	border-color:inherit;
+}
+
+
