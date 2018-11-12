@@ -14,4 +14,5 @@ http://localhost:9000
 - protected/private routes redirect to /login and back again
 
 http://localhost:9000/login
+
 http://localhost:9000/checkout
