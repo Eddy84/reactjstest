@@ -68,7 +68,7 @@ export class Checkout extends Base<CheckoutProps & WithNamespaces, CheckoutState
 		}
 
 		return (
-			<div className="u-checkout">
+			<div className="u-page u-checkout">
 				<Steps items={g_steps} activeIndex={step}/>
 			{ formComponent }
 			</div>
