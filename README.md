@@ -15,4 +15,4 @@ http://localhost:9000
 
 http://localhost:9000/login
 
-http://localhost:9000/checkout
+http://localhost:9000/checkout/0/address
